@@ -1,45 +1,81 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="css/a.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>简历</title>
+<link rel="stylesheet" href="css/a.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2 {
+    color: #333;
+  }
+  p {
+    color: #666;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .skills li {
+    margin-bottom: 5px;
+  }
+</style>
 </head>
 <body>
 
-<header>
-    <h1>欢迎</h1>
-</header>
-
-<nav>
-    <ul>
-        <li><a href="#">主页</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+<div class="container">
+  <header>
+    <h1>张三</h1>
+    <p>前端开发工程师</p>
+  </header>
+  <section>
+    <h2>个人信息</h2>
+    <p>电话：123456789</p>
+    <p>邮箱：<a href="mailto:zhangsan@example.com">zhangsan@example.com</a></p>
+    <p>地址：某某省某某市</p>
+  </section>
+  <section>
+    <h2>教育背景</h2>
+    <p>大学：某某大学</p>
+    <p>专业：计算机科学与技术</p>
+    <p>学位：学士</p>
+    <p>毕业时间：20XX年</p>
+  </section>
+  <section>
+    <h2>技能</h2>
+    <ul class="skills">
+      <li>HTML/CSS</li>
+      <li>JavaScript</li>
+      <li>React.js</li>
+      <li>Vue.js</li>
+      <li>Bootstrap</li>
     </ul>
-</nav>
-
-<main>
-    <section>
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo ipsum nec tortor dapibus, eget scelerisque magna tristique.</p>
-    </section>
-
-    <section>
-        <h2>Our Services</h2>
-        <ul>
-            <li>Service 1</li>
-            <li>Service 2</li>
-            <li>Service 3</li>
-        </ul>
-    </section>
-</main>
-
-<footer>
-    <p>&copy; 2024 My Website. All Rights Reserved.</p>
-</footer>
+  </section>
+  <section>
+    <h2>工作经历</h2>
+    <p>某某公司 - 前端开发工程师（20XX年至今）</p>
+    <ul>
+      <li>负责公司网站前端开发</li>
+      <li>与设计团队合作，实现网站界面设计</li>
+      <li>优化网站性能，提升用户体验</li>
+    </ul>
+  </section>
+</div>
 
 </body>
 </html>
