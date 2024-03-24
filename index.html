@@ -1,81 +1,242 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>简历</title>
-<link rel="stylesheet" href="css/a.css">
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  .container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  h1, h2 {
-    color: #333;
-  }
-  p {
-    color: #666;
-  }
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  .skills li {
-    margin-bottom: 5px;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="http://cody1991.github.io/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>codytang 个人简历</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
+
 <body>
+  <div class="wrapper" id="wrapper">
+    <header>
+      <div class="banner row" id="banner">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noPadd slides-container" style="height:100%">
+          <div class="slide">
+            <img src="images/header-image/header-bg1.jpg" width="1024" height="682">
+          </div>
+          <div class="slide">
+            <img src="images/header-image/header-bg2.jpg" width="1024" height="682">
+          </div>
+          <div class="slide">
+            <img src="images/header-image/header-bg3.jpg" width="1024" height="682">
+          </div>
+          <div class="slide">
+            <img src="images/header-image/header-bg4.jpg" width="1024" height="682">
+          </div>
+        </div>
+        <div class="bannerText container">
+          <h1>我叫丁宝</h1>
+          <a href="#aboutme" class="mbnt">关于我</a>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="navbar-wrapper">
+          <div class="container">
+            <div class="navwrapper">
+              <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">导航</a>
+                  </div>
+                  <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav nav-justified">
+                      <li class="first menuItem homeLink active">
+                        <a href="#wrapper">首页</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#aboutme">关于我</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#technical">技能</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#exprience">经历</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#reffernces">项目</a>
+                      </li>
+                      <li class="menuItem">
+                        <a href="#contact">联系我</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="aboutme" id="aboutme">
+      <div class="container">
+        <div class="row">
+          <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
+            <div class="heading clearfix">
+              <h2>关于我</h2>
+            </div>
+            <div id="description">
+              <p>
+                我是来自西安的一名本科学生，2025年的西安石油大学计算机与科学专业本科毕业生。
+              </p>
+              <p>
+                具有前端开发基础，并且一直保持对新技术的学习热情。熟练使用HTML5、CSS3以及JavaScript。
+              </p>
+              <p>我的兴趣爱好：读书，听歌，旅游，爬山。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technical" id="technical">
+      <div class="container">
+        <div class="heading">
+          <h2 id="technical_title">技能</h2>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                                <span class="percent"></span>
+              </span>
+              <h4>HTML5</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                                <span class="percent"></span>
+              </span>
+              <h4>CSS3</h4>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="80">
+                                <span class="percent"></span>
+              </span>
+              <h4>JavasSript</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 skillsArea">
+            <div class=" col-xs-12 skills">
+              <span class="chart skilBg" data-percent="85">
+                                <span class="percent"></span>
+              </span>
+              <h4>CET-4</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="exprience" id="exprience">
+      <div class="container">
+        <div class="heading">
+          <h2>经历</h2>
+        </div>
+        <div class="row workDetails">
+          <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2">
+            <div class="workYear">
+              <span class="prevY">07,2021</span>
+              <span class="afterY">至今</span>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4>西安石油大学</h4>
+              <h5>学生会会员</h5>
+              <span class = "prevY" style="font-size: 20px;">活动策划与组织</span>
+              <p>协助策划并组织了多场校园活动，包括迎新晚会、校园文化节等，负责活动流程的设计、场地布置、节目策划等工作。</p>
+              <span class = "prevY" style="font-size: 20px;">会务支持</span>
+              <p>协助学生会内部会务工作，包括会议记录、文件整理、资料归档等，保障学生会日常运行的顺利进行。</p>
+              <span class = "prevY" style="font-size: 20px;">宣传推广</span>
+              <p>负责学生会活动的宣传推广工作，包括制作海报、宣传册、线上宣传等，通过社交媒体平台扩大活动影响力。</p>
+              <span class = "prevY" style="font-size: 20px;">团队协作</span>
+              <p>在团队中积极参与讨论和决策，与其他部门紧密合作，共同推动学生会各项工作的顺利开展</p>
+            </div>
+          </div>
+        </div>
+          <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
+            <div class="arrowpart"></div>
+            <div class="exCon">
+              <h4>西安石油大学</h4>
+              <h5>计算机与科学本科生</h5>
+              <p>在四年的大学生活中我主要学习了比如操作系统，计算机网络，C/C++编程语言，数据结构，编译原理和软件工程导论等等。而在2024年3月开始学习前端开发，在毕业前熟悉掌握了HTML，CSS和JavaScript，打下了不错的基础。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reffernces" id="reffernces">
+      <div class="container">
+        <div class="heading">
+          <h2>项目</h2>
+          <p>下面包括了自己的开源项目，公司项目，推荐的网站等。</p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container topCon">
+        <div class="heading">
+          <h2>联系我</h2>
+        </div>
+      </div>
+    </section>
+    <section class="contactDetails">
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h4>联系方式</h4>
+          <p> <i class="icon icon-envelope"></i><a>2495272833@qq.com</a></p>
+          <p> <i class="icon icon-link"></i><a href="https://bourbon1006.github.io/">https://bourbon1006.github.io/</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="./js/jquery-2.1.4.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+  <script src="./js/jquery.waterfall.js"></script>
+  <script src="./js/stickUp.js"></script>
+  <script type="text/javascript">
+  jQuery(function($) {
+    $(document).ready(function() {
+      //enabling stickUp on the '.navbar-wrapper' class
 
-<div class="container">
-  <header>
-    <h1>张三</h1>
-    <p>前端开发工程师</p>
-  </header>
-  <section>
-    <h2>个人信息</h2>
-    <p>电话：123456789</p>
-    <p>邮箱：<a href="mailto:zhangsan@example.com">zhangsan@example.com</a></p>
-    <p>地址：某某省某某市</p>
-  </section>
-  <section>
-    <h2>教育背景</h2>
-    <p>大学：某某大学</p>
-    <p>专业：计算机科学与技术</p>
-    <p>学位：学士</p>
-    <p>毕业时间：20XX年</p>
-  </section>
-  <section>
-    <h2>技能</h2>
-    <ul class="skills">
-      <li>HTML/CSS</li>
-      <li>JavaScript</li>
-      <li>React.js</li>
-      <li>Vue.js</li>
-      <li>Bootstrap</li>
-    </ul>
-  </section>
-  <section>
-    <h2>工作经历</h2>
-    <p>某某公司 - 前端开发工程师（20XX年至今）</p>
-    <ul>
-      <li>负责公司网站前端开发</li>
-      <li>与设计团队合作，实现网站界面设计</li>
-      <li>优化网站性能，提升用户体验</li>
-    </ul>
-  </section>
-</div>
+      $('.navbar-wrapper').stickUp({
+        parts: {
+          0: 'wrapper',
+          1: 'aboutme',
+          2: 'technical',
+          3: 'exprience',
+          4: 'reffernces',
+          5: 'contact'
+        },
+        itemClass: 'menuItem',
+        itemHover: 'active',
+        topMargin: 'auto'
+      });
+    });
+  });
 
+  </script>
+  <script src="./js/jquery.superslides.js"></script>
+  <script src="./js/jquery.easing.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script src="js/jquery.easypiechart.js"></script>
 </body>
+
 </html>
+
